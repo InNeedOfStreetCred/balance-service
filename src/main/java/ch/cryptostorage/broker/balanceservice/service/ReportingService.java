@@ -7,11 +7,11 @@ import java.time.OffsetTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
 
 import ch.cryptostorage.broker.balanceservice.web.api.BalanceHistory;
 import ch.cryptostorage.broker.balanceservice.web.api.BalanceInfo;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
